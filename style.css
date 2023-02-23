@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-container .login-container {
+    width: 500px;
+    margin: 0 auto;
+    background-color :#6983C3;
+    border: 5px solid black;
+    display: block;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    }
+
+.login-container .sign-in{
+    padding: 10px ;
+    font-size: 1.3rem;  
+    margin: auto;
+    color:#444955 ;
+
+   
+   
+}
+.login-container .sign-up{
+    padding: 10px ;
+    font-size: 1.3rem;  
+    margin: auto;
+    text-decoration: none;
+    color:#444955 ;
+}
+.sign-in:hover {
+   color:white;
+    
+}
+ .sign-up:hover{
+    color:lightslategrey;
+     
+ }
+
+ .form-container .login-container p {
+  color: #444955 ;
+
+  
+}
+.form-container .login-container label {
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+   
+    
+  }
+  .form-container .login-container .input{
+    border-radius: 15px;
+    border: solid 1px;
+    background-color: lightslategray
+  }
