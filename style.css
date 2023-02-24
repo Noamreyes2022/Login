@@ -3,44 +3,50 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.form-container .login-container {
-    width: 500px;
-    margin: 0 auto;
-    background-color :#9CA4B8;
+.form-container .login-container{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
     border:3px solid black;
-    display: block;
-    text-align: center;
-    width: 40%;
-    height: 100%;
-    }
+    background-color: #6E92EC;
+      
+  }
+    
 
 .login-container .sign-in{
     padding: 10px ;
     font-size: 1.3rem;  
     margin: auto;
-    color:#444955 ;
+    color:#fff ;
 
    
    
 }
 .login-container .sign-up{
-    padding: 10px ;
+    padding: 5px ;
     font-size: 1.3rem;  
     margin: auto;
     text-decoration: none;
     color:#444955 ;
 }
 .sign-in:hover {
-   color:white;
+   color:#414355 ;
     
 }
  .sign-up:hover{
-    color:white;
+    color:#fff ;
      
  }
 
  .form-container .login-container p {
-  color: #444955 ;
+  color:#CDD1F0 ;
 
   
 }
@@ -49,10 +55,24 @@ body{
     font-weight: bold;
     padding: 5px 0;
    
+   
     
   }
   .form-container .login-container .input{
     border-radius: 15px;
     border: solid 1px;
-    background-color: lightslategray
+    background-color: lightslategray;
+    width:90%;
+    
+   }
+.options .boton {
+       
+        background-color: #414355;
+        border-radius: 40px;
+        width: 25%;
+        text-align: center;
+        padding: 5px;
+        
+      
   }
+   
