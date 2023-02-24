@@ -61,17 +61,19 @@ body{
   .form-container .login-container .input{
     border-radius: 15px;
     border: solid 1px;
-    background-color: lightslategray;
+    background-color: #889097 ;
     width:90%;
     
    }
 .options .boton {
        
-        background-color: #414355;
+        background-color:#889097  ;
         border-radius: 40px;
         width: 25%;
         text-align: center;
         padding: 5px;
+        font-size:small;
+        font-weight: bold;
         
       
   }
