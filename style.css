@@ -13,18 +13,24 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 70px 30px ;
     border:3px solid black;
     background-color: #6E92EC;
+    
       
+  }
+  .login-container{
+    padding: 10px 30px;
+    margin: 0;
   }
     
 
 .login-container .sign-in{
-    padding: 10px ;
+    padding: 10px;
     font-size: 1.3rem;  
-    margin: auto;
+    margin:auto;
     color:#fff ;
+
 
    
    
@@ -75,6 +81,34 @@ body{
         font-size:small;
         font-weight: bold;
         
-      
   }
-   
+
+  .options a{
+ color:#444955;
+ font-weight: bold;
+ position:relative;
+ top: -35px;
+ right: -90px;
+ font-size: small;
+ text-decoration: none;
+ 
+
+   }
+
+    .btn-login{
+    background-color:blue;
+    border-radius: 10px;
+    width: 90%;
+    color: #fff;
+    font-weight:bold;
+  
+   }
+   .link-final{
+    color: #414355;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: small;
+    
+
+   }
