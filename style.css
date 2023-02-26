@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image:url(https://thumbs.dreamstime.com/b/fondo-abstracto-de-la-tecnolog%C3%ADa-futurista-concepto-del-ciberespacio-126558022.jpg);
 }
 .form-container .login-container{
     width: 320px;
